@@ -14,4 +14,3 @@ EXPOSE 80/tcp
 ENTRYPOINT ["nginx"]
 CMD ["-g", "daemon off;"]
 
-# docker container run -d --name my_shit -p 8080:80 local:nginx
